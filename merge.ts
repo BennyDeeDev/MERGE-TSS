@@ -30,7 +30,7 @@ const merge = (intervals: [number, number][]) => {
   }
 
   // if all intervals have been overlapping, the array is empty so it needs to be filled
-  // - otherwise append the not overlapping intervals to the array
+  // - otherwise append the not overlapping interval to the array
   mergedIntervals.push(startingInterval);
 
   return mergedIntervals;

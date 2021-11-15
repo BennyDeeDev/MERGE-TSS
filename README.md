@@ -39,7 +39,7 @@ Execution Time for the example Input:
 
 execution_time: 1.518ms
 
-Exectution Time can be tested by running:
+Execution Time can be tested by running:
 
 `npm run execution_time`
 
@@ -49,8 +49,8 @@ To ensure stability very large Arrays should be split into two streams, and merg
 
 # Time needed
 
-13.11.21: 18.00 - 19:00
-14.11.21: 17.00 - 19.00
-15.11.21: 16.30 - 17.30
+- 13.11.21: 18.00 - 19:00
+- 14.11.21: 17.00 - 19.00
+- 15.11.21: 16.30 - 17.30
 
 Total: approx. 4h

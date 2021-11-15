@@ -1,4 +1,9 @@
+import { memoryUsage } from "./memoryUsage";
 // Example: Input: [25,30] [2,19] [14, 23] [4,8]  Output: [2,23] [25,30]
+
+if (process.env.NODE_ENV === "execution_time") {
+  console.time("execution_time");
+}
 
 const merge = (intervals: [number, number][]) => {
   // edge case
@@ -43,11 +48,12 @@ const result = merge([
   [4, 8],
 ]);
 
-const simpleResult = merge([
-  [1, 3],
-  [2, 4],
-  [5, 7],
-  [6, 8],
-]);
+console.log({ result });
 
-console.log({ result }, { simpleResult });
+if (process.env.NODE_ENV === "execution_time") {
+  console.timeEnd("execution_time");
+}
+
+if (process.env.NODE_ENV === "memory_usage") {
+  memoryUsage();
+}

@@ -4,11 +4,17 @@
   "description": "",
   "main": "merge.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node merge",
+    "memory_usage": "cross-env NODE_ENV=memory_usage npx ts-node merge",
+    "execution_time": "cross-env NODE_ENV=execution_time npx ts-node merge"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

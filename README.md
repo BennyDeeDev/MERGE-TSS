@@ -7,19 +7,25 @@ Requirements:
 - Node.js: v16.13.0
 - NPM: 8.1.3
 
-The program can be executed with:
+The program with example Input can be executed with:
 
 `npm run start`
+
+# Tests
+
+To run Tests use:
+
+`npm run test`
 
 # Memory Usage
 
 Memory Usage for the example Input:
 
-rss, 178.679808MB
-heapTotal, 98.504704MB
-heapUsed, 77.266576MB
-external, 1.506896MB
-arrayBuffers, 0.041162MB
+- rss, 172.867584 MB
+- heapTotal, 98.258944 MB
+- heapUsed, 72.079048 MB
+- external, 1.156908 MB
+- arrayBuffers, 0.049338 MB
 
 Code for reference in `memoryUsage.ts`
 
@@ -27,12 +33,24 @@ Memory Usage can be tested by running:
 
 `npm run memory_usage`
 
-# Exection Time
+# Execution Time
 
 Execution Time for the example Input:
 
-execution_time: 1.792ms
+execution_time: 1.518ms
 
 Exectution Time can be tested by running:
 
 `npm run execution_time`
+
+# Stability
+
+To ensure stability very large Arrays should be split into two streams, and merged back together
+
+# Time needed
+
+13.11.21: 18.00 - 19:00
+14.11.21: 17.00 - 19.00
+15.11.21: 16.30 - 17.30
+
+Total: approx. 4h

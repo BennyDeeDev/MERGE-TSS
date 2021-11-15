@@ -7,7 +7,7 @@ Requirements:
 - Node.js: v16.13.0
 - NPM: 8.1.3
 
-The program with example Input can be executed with:
+This program can be executed with example Input:
 
 `npm run start`
 

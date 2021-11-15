@@ -1,6 +1,6 @@
 # Setup
 
-This program is written in TypeScript
+This program is written in TypeScript, and is used to merge overlapping intervals
 
 Requirements:
 
